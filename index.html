@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="src/images/Logo/b2a_logo.png">
+  <title> Base2Ace Homeserver</title>
+  <link rel="stylesheet" href="src/styles/designSystem.css">
+  <link rel="stylesheet" href="src/styles/index.css">
+</head>
+
+<body class="body__index">
+  <nav class="hero">
+    <div class="navbar container">
+      <div class="navbar__logo">
+        <img src="src/images/Logo/b2a_logo_white.png" width="50" height="50" alt="" class="navbar__logo--image"></img>
+        <div class="navbar__logo--text">Base2Ace Technologies</div>
+      </div>
+      <div class="navbar__menu hidden">
+        <a href="index.html" class="navbar__menu--1">Home</a>
+        <a href="index.html"  target="_blank" class="navbar__menu--2">Products</a>
+        <a href="./programs/Downloads.html"  target="_blank" class="navbar__menu--3">Downloads</a>
+        <a href="index.html" target="_blank" class="navbar__menu--4">Contact</a>
+      </div>
+      <div class="navbar__icon">
+        <i class="bi bi-list"></i>
+        <i class="bi bi-x-lg hide"></i>
+      </div>
+    </div>
+
+    <header class="header grid container">
+	
+	  <script>
+        function openSyllabusPage_disable() {
+            <!-- window.open("https://cisce.org/regulations-and-syllabuses-2025/", "_blank"); -->
+            window.open("https://cisce.org/wp-content/uploads/2024/01/21.-ICSE-Computer-Applications_25.pdf", "_blank");
+        }
+		function open_b2a_dot_comPage() {
+            window.open("https://base2ace.com", "_blank");
+        }
+        function course_explore_disable() {
+			window.open("courses.html", "_blank");
+            <!-- window.location.href = 'course_explore.html';  -->
+        }
+        function Register() {
+			window.open("https://docs.google.com/forms/d/e/1FAIpQLScNHsZOApgSz2MQ1JQEpjORMC9wlRosrxJRGcqW9smfDr6BSg/viewform", "_blank");
+        }		
+		function openAllProgramsPage_disable(_disable) {
+			window.open("./programs/AllPrograms.html", "_blank");
+		}
+		function openQuestionPapersPage_disable() {
+			window.open("./question_papers.html", "_blank");
+		}
+		function openMockPapersPage_disable() {
+			window.open("./programs/questi_disableon_papers.html", "_blank");
+		}
+		
+		</script>
+		
+	
+      <div class="header__left flex">
+        <div class="header__left--title common-title text-white">Set up you own Local Server to transfer files over a Home Network.</div>
+        <div class="header__left--text">Upload, Download and Share files across devices seamlessely from your favaourite browser. Quick, easy and secure way to transfer files across the local network. Supports Windows, Mac OS, Linux, Android, iPhone, iPad and pretty much every device that supports a browser.</div>
+        <button class="header__left--btn white-btn"  onclick="Register()">Sign up.</button>
+      </div>
+      <img src="src/images/Home/image-1.svg" alt="" class="header__right responsive-image">
+    </header>
+  </nav>
+  
+    
+  <section class="sectionTwo container grid">
+    <img src="src/images/Home/image-2.png" alt="" class="sectionTwo responsive-image">
+    <div class="sectionTwo__right flex">
+      <div class="sectionTwo__right--title common-title">Share Files and Folders.</div>
+      <div class="sectionTwo__right--text ">You can seamlessely share individual files and complete folders with devices on the network.</div>
+      <button class="sectionTwo__right--btn dark-btn" onclick="course_explore()">Learn More</button>
+    </div>
+  </section>
+  
+  
+  <section class="sectionThree container grid">
+    <div class="sectionThree__left flex">
+      <div class="sectionThree__left--title common-title">Quick Search.</div>
+      <div class="sectionThree__left--text ">Search with in the shared files and folders for the items you are looking for using the search option.</div>
+      <button class="sectionThree__left--btn dark-btn" onclick="openAllProgramsPage()">Learn More</button>
+    </div>
+    <img src="src/images/Home/image-3.png" alt="" class="sectionthree__right responsive-image">
+  </section>
+  
+  <hr>
+  
+ 
+  <footer class="footerWrapper">
+    <div class="footerLinks container">
+      <div class="footerLinks__copyright text-white text-center">© Base2Ace Academy. An ISO 9001:2015 Certified Company.</div>
+    </div>
+  </footer>
+</body>
+<script src="src/main.js"></script>
+
+</html>
