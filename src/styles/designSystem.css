@@ -57,6 +57,18 @@
 * !style rule for common buttons
 **/
 
+.top-white-btn,
+.top-dark-btn{
+  color: var(--color-white-100);
+  background-color: var(--color-wws-100);
+  cursor: pointer;
+  font-size: var(--h5);
+  font-family: var(--font-2);
+  border: none;
+  border-radius: 8px;
+  padding: 10px 40px;
+}
+
 .white-btn,
 .dark-btn{
   color: var(--color-white-100);
