@@ -198,7 +198,7 @@ button {
 	font-weight: bold;
 }
 .download-btn {
-	background-color: #4CAF50;
+	background-color: var(--color-wws-100);
 	color: white;
 }
 .download-btn:hover {

@@ -67,7 +67,7 @@ button {
 	font-weight: bold;
 }
 .download-btn {
-	background-color: #B3A394;
+	background-color: rgba(16, 37, 66, 1);
 	color: white;
 }
 .download-btn:hover {
